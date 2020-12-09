@@ -2,7 +2,7 @@
 In this repository we build our model and implemented using openCV the classification of Sign Language Digis using CNN from scratch.
 Our dataset include images of Sign Language Digits from 0 to 9.
 
-<img src = 'images/dataset.png'>
+<img src = 'images/dataset_preview.png'>
 
 ### Details of dataset
 - Image size: 100 * 100

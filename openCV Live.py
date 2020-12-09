@@ -26,7 +26,7 @@ while True:
 	# get the predicted output
 	y_pred = np.argmax(model.predict(x_test))
 
-	cv2.putText(frame, 'Number: '+ y_pred, (50, 50), font, 1, (0, 255, 255), 2, cv2.LINE_4)
+	cv2.putText(frame, 'Number: ' + str(y_pred), (50, 50), font, 1, (0, 255, 255), 2, cv2.LINE_4)
 	cv2.imshow('video', frame)
 
 	k = cv2.waitKey(1)
